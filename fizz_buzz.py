@@ -1,6 +1,6 @@
 nmr = int(input("Enter number between 1 and 100: "))
 
-for nmr in range (1 + nmr):
+for nmr in range (1, 1 + nmr):
     if nmr % 3 == 0 and nmr % 5 == 0:
         print("fizzbuzz")
     elif nmr % 3 == 0:
